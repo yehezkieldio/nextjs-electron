@@ -11,7 +11,7 @@
     "format": "dprint fmt",
     "postinstall": "electron-builder install-app-deps",
     "electron:dist": "electron-builder --dir",
-    "electron:dist:deb": "electron-builder --linux deb",
+    "electron:dist:appimage": "electron-builder --linux appimage",
     "electron:build": "tsup",
     "build": "run-s next:build electron:build",
     "dist": "run-s next:build electron:dist",
